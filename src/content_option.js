@@ -1,39 +1,30 @@
-const logotext = "JOHN";
+const logotext = "Abdulrahman";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Abdulrahman Bakare",
+    description: "I’m Abdulrahman Bakare Eectronics and Computer Engineer_ Full stack devloper,currently working at Optiedge",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Abdulrahman Bakare",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Passionate and skilled Full Stack Developer with [X] years of experience in designing, developing, and implementing web applications. Proficient in front-end technologies like HTML, CSS, JavaScript, and frameworks such as React and Angular.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About my self",
+    aboutme: "Passionate and skilled Full Stack Developer with [X] years of experience in designing, developing, and implementing web applications. Proficient in front-end technologies like HTML, CSS, JavaScript, and frameworks such as React and Angular. Experienced in back-end development using Node.js, Express, and databases like MongoDB and SQL. Adept at collaborating with cross-functional teams to deliver high-quality, scalable, and user-centric solutions. Constantly learning and staying updated with the latest industry trends to bring innovative ideas to life.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Web developer",
+        where: "Optiedge",
+        date: "2021",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+   
 ];
 
 const skills = [{
@@ -56,26 +47,34 @@ const skills = [{
         name: "Jquery",
         value: 85,
     },
+    {
+        name: "Css",
+        value: 85,
+    },
+    {
+        name: "HTML",
+        value: 100,
+    },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Creative and detail-oriented UI & UX Designer with 5 years of experience in creating engaging and user-friendly interfaces. Expert in user research, wireframing, prototyping, and visual design. ",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Proficient in user research, wireframing, prototyping, and creating visually appealing interfaces for both iOS and Android platforms. Skilled in using design tools such as Adobe XD, Sketch, Figma, and InVision to bring concepts to life.",
     },
     {
         title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Skilled and dedicated WordPress Developer with 5 years of experience in designing, developing, and maintaining WordPress websites. Proficient in customizing themes, building custom plugins, and optimizing websites for performance and SEO.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "./passswordgenerator.jpg",
+        description: "An Automatic password Generator extension",
+        link: "https://passwordgenerator-l522.vercel.app/",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
@@ -104,7 +103,7 @@ const dataportfolio = [{
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://picsum.photos/400/300/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -114,8 +113,8 @@ const dataportfolio = [{
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "React.jpg",
+        description: "Real estate website",
         link: "#",
     },
     {
@@ -136,21 +135,21 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "abdulrahmanbakare001@gmail.com",
+    YOUR_FONE: "0816 4493 128",
+    description: "Adept at UI & UX Design, creating intuitive, user-friendly interfaces that enhance user experience. Skilled in collaborating with cross-functional teams to deliver high-quality, scalable, and user-centric solutions. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "Optiedge",
+    YOUR_Github_ID: "github.com/abdul-raham/",
+    YOUR_USER_ID: "abdul-raham",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/abdul-raham/",
+    facebook: "https://facebook.com/abdulrahman-bakare",
+    linkedin: "https://linkedin.com/abdulrahman-bakare",
+    twitter: "https://twitter.com/abdulrah001",
 };
 export {
     meta,
